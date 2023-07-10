@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.sportybets.sport.fragments.StartFragment"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start" >
+        <action
+            android:id="@+id/action_startFragment_to_webFragment"
+            app:destination="@id/webFragment"
+            app:popUpTo="@id/nav_graph" />
+        <action
+            android:id="@+id/action_startFragment_to_noConnectionFragment"
+            app:destination="@id/noConnectionFragment"
+            app:popUpTo="@id/nav_graph" />
+        <action
+            android:id="@+id/action_startFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/webFragment"
+        android:name="com.sportybets.sport.fragments.WebFragment"
+        android:label="fragment_web"
+        tools:layout="@layout/fragment_web" />
+    <fragment
+        android:id="@+id/noConnectionFragment"
+        android:name="com.sportybets.sport.fragments.NoConnectionFragment"
+        android:label="fragment_no_connection"
+        tools:layout="@layout/fragment_no_connection" />
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.sportybets.sport.fragments.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" />
+</navigation>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "323089430847",
+    "project_id": "bangbet-e10d8",
+    "storage_bucket": "bangbet-e10d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323089430847:android:98c1ed5bcbf358d6e73b8a",
+        "android_client_info": {
+          "package_name": "com.sportybets.sport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323089430847-pmno61dhrkqpttav85ug2ifcj29m2p56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxik9oI2I1QfO7ne0ON4IvqeN3gPT1nxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323089430847-pmno61dhrkqpttav85ug2ifcj29m2p56.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
